@@ -1,0 +1,68 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+    package="pl.nanoid.atlasotoskopii"
+    android:versionCode="12"
+    android:versionName="v 4v" >
+
+    <uses-sdk
+        android:minSdkVersion="21"
+        android:targetSdkVersion="29" />
+
+    <application
+        android:allowBackup="true"
+        android:appComponentFactory="androidx.core.app.CoreComponentFactory"
+        android:icon="@mipmap/ic_launcher"
+        android:label="@string/app_name"
+        android:roundIcon="@mipmap/ic_launcher_round"
+        android:supportsRtl="true"
+        android:theme="@style/AppTheme" >
+        <activity
+            android:name="pl.nanoid.atlasotoskopii.ui.Scheme.Scheme"
+            android:configChanges="orientation"
+            android:label="@string/title_activity_scheme"
+            android:parentActivityName="pl.nanoid.atlasotoskopii.ui.Start.MainActivity"
+            android:screenOrientation="portrait"
+            android:theme="@style/AppTheme.NoActionBar" >
+            <meta-data
+                android:name="android.support.PARENT_ACTIVITY"
+                android:value="pl.nanoid.atlasotoskopii.ui.Start.MainActivity" />
+        </activity>
+        <activity
+            android:name="pl.nanoid.atlasotoskopii.ui.Detailed.Detailed"
+            android:configChanges="orientation"
+            android:label="@string/title_activity_detailed"
+            android:parentActivityName="pl.nanoid.atlasotoskopii.ui.Start.MainActivity"
+            android:screenOrientation="portrait"
+            android:theme="@style/AppTheme.NoActionBar" >
+            <meta-data
+                android:name="android.support.PARENT_ACTIVITY"
+                android:value="pl.nanoid.atlasotoskopii.ui.Start.MainActivity" />
+        </activity>
+        <activity
+            android:name="pl.nanoid.atlasotoskopii.ui.Start.StartActivity"
+            android:configChanges="orientation"
+            android:screenOrientation="portrait"
+            android:theme="@style/AppTheme.NoActionBar" >
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+        </activity>
+        <activity
+            android:name="pl.nanoid.atlasotoskopii.ui.Start.MainActivity"
+            android:configChanges="orientation"
+            android:screenOrientation="portrait" />
+
+        <meta-data
+            android:name="preloaded_fonts"
+            android:resource="@array/preloaded_fonts" />
+
+        <provider
+            android:name="androidx.lifecycle.ProcessLifecycleOwnerInitializer"
+            android:authorities="pl.nanoid.atlasotoskopii.lifecycle-process"
+            android:exported="false"
+            android:multiprocess="true" />
+    </application>
+
+</manifest>

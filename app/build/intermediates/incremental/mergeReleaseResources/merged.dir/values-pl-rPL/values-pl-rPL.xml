@@ -1,0 +1,36 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="about_application">Celem tego programu jest pokazanie zmian chorobowych w badaniu otoskopowym u dzieci na podstawie wybranych schorzeń - bardzo częstych, jak również wyjątkowo rzadkich, wraz z proponowanym postępowaniem.
+        Aplikacja ma charakter edukacyjny i wspomagający.
+        Została stworzona przez lekarza otolaryngologa zajmującego się otochirurgią w tym dziecięcą, w zgodzie z najnowszą dostępną mu wiedzą medyczną.
+        Jest przeznaczona dla kolegów lekarzy, zwłaszcza pediatrów i lekarzy rodzinnych ale również dla młodszych kolegów, studentów i rezydentów.
+        Zdjęcia wybrane do atlasu są autentycznymi, niepoprawianymi fotografiami ucha środkowego u dzieci.
+        Wszystkie te zdjęcia były wykonane przez Autora, wszystkie dzieci również były leczone i operowane przez Autora.
+        W opisie każdego obrazu podano krótki opis wraz z objawami, które mogą mu towarzyszyć. Podano również proponowane leczenie - na podstawie własnego wieloletniego doświadczenia i danych z literatury.
+        Autor zdaje sobie sprawę, że postępowanie i sposób leczenia poszczególnych jednostek chorobowych może różnić się w zależności od kraju i doświadczenia lekarza.
+        Wierzy jednak, że całość pozwoli na podjęcie pewnych decyzji terapeutycznych lub skierowanie do specjalisty zajmującego się chorobami uszu u dzieci.
+        Korzystanie z aplikacji jest bezpłatne a warunkiem jest zrzeczenie się wszelkich potencjalnych roszczeń w stosunku do Autora.
+        Ewentualne uwagi, sugestie proszę kierować na adres email. \n\n
+        Dr n. med. Marek Porowski \n\n  Instytut Fizjologii i Patologii Słuchu, Warszawa/Kajetany \n
+        e-mail: mptaurus@protonmail.ch \n
+    </string>
+    <string name="app_name">Mały Atlas Otoskopii Dziecięcej</string>
+    <string name="app_name_of_pediatric">Otoskopii</string>
+    <string name="app_name_otoscopy">Dziecięcej</string>
+    <string name="app_name_small_atlas">Mały Atlas</string>
+    <string name="click_to_show_details">Kliknij aby zobaczyć szczegóły</string>
+    <string name="description_text">Opis</string>
+    <string name="menu_about">Info</string>
+    <string name="menu_change_view">Zmień widok</string>
+    <string name="menu_write_email">Wyślij e-mail</string>
+    <string name="title_activity_detailed">Szczegóły</string>
+    <string name="title_activity_foto">Atlas Otoskopii Dziecięcej</string>
+    <string name="title_activity_leczenie">Atlas Otoskopii Dziecięcej</string>
+    <string name="title_activity_opis">Atlas Otoskopii Dziecięcej</string>
+    <string name="title_activity_opis_aplikacji">Opis aplikacji</string>
+    <string name="title_activity_scheme">Atlas Otoskopii Dziecięcej</string>
+    <string name="title_info">Informacje</string>
+    <string name="title_list">Lista</string>
+    <string name="title_pictures">Obrazy</string>
+    <string name="treatment_text">Leczenie</string>
+</resources>

@@ -1,0 +1,54 @@
+<resources>
+
+    <string name="company_name" translatable="false">Nano-Id Group</string>
+    <string name="action_settings" translatable="false">NanoID Group</string>
+    <string name="email" translatable="false">email: mptaurus@protonmail.ch</string>
+    <string name="me" translatable="false">Marek Porowski</string>
+
+    <string name="app_name">Small Atlas of Pediatric Otoscopy</string>
+    <string name="app_name_small_atlas">Small Atlas</string>
+    <string name="app_name_of_pediatric">of Pediatric</string>
+    <string name="app_name_otoscopy">Otoscopy</string>
+
+    <string name="title_list">List</string>
+    <string name="title_info">Info</string>
+    <string name="title_pictures">Pictures</string>
+
+    <string name="menu_about">About</string>
+    <string name="menu_write_email">Send e-mail</string>
+    <string name="menu_change_view">Change view</string>
+
+    <string name="title_activity_foto">Atlas of Pediatric Otoscopy</string>
+    <string name="title_activity_leczenie">Atlas of Pediatric Otoscopy</string>
+    <string name="title_activity_scheme">Atlas of Pediatric Otoscopy</string>
+    <string name="title_activity_opis">Atlas of Pediatric Otoscopy</string>
+    <string name="title_activity_opis_aplikacji">Description of the application.</string>
+    <string name="title_activity_detailed">Details</string>
+
+    <string name="treatment_text">Treatment</string>
+    <string name="description_text">Description</string>
+    <string name="click_to_show_details">Click to show details</string>
+
+    <string name="about_application"> The purpose of this program was to show otoscopic images of common and also very rare lesions of the middle ear in children and to propose their treatment.
+        The application should be treated as educational and is intended for physicians, especially pediatricians, generally practitioners but also for younger colleagues, students and ENT residents.
+        The application was created by ENT specialist, experienced otosurgeon with special interest in pediatric otology.
+        All these pictures were taken by the author.
+        They are authentic, no corrected photographs of middle ear diseases of the children, images that you can see during otoscopy in your own practice.
+        All these children were treated and operated by the author.
+        Each image has a brief description with symptoms.
+        I also proposed the treatment - based on my own experience and data from literature.
+        I realize that the treatment of various disease entities may differ depending on the country and experience of the doctors.
+        But I believe that this atlas will help to take some therapeutic decisions.
+        Using the app is free and user waive any claim against author.
+        You can not copy or distribute in any way any of the photos from this atlas.
+        If you have comments, suggestions - please let me know via email. \n\n
+        Marek Porowski, MD, Ph.D.\n\n
+        Institute of Physiology and Pathology of Hearing, Warsaw/Kajetany \n
+        e-mail: mptaurus@protonmail.ch \n\n\n
+
+        *** Currently I am working on the enriched version of the Atlas. It will take me some time as I am active doctor, time for me becomes more and more precious.
+        I am looking for colleagues from other countries who would like to contribute to this project.
+        If you would like to be an co-author of this Atlas, and if you would like to translate this application to your language - please let me know.. ***
+    </string>
+
+</resources>

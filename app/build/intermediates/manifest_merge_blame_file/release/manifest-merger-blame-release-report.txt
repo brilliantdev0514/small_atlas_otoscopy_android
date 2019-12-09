@@ -1,0 +1,120 @@
+1<?xml version="1.0" encoding="utf-8"?>
+2<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+3    package="pl.nanoid.atlasotoskopii"
+4    android:versionCode="12"
+5    android:versionName="v 4v" >
+6
+7    <uses-sdk
+8        android:minSdkVersion="21"
+8-->C:\Users\Admin\Documents\Program\app\src\main\AndroidManifest.xml
+9        android:targetSdkVersion="29" />
+9-->C:\Users\Admin\Documents\Program\app\src\main\AndroidManifest.xml
+10
+11    <application
+11-->C:\Users\Admin\Documents\Program\app\src\main\AndroidManifest.xml:5:5-55:19
+12        android:allowBackup="true"
+12-->C:\Users\Admin\Documents\Program\app\src\main\AndroidManifest.xml:6:9-35
+13        android:appComponentFactory="androidx.core.app.CoreComponentFactory"
+13-->[androidx.core:core:1.1.0] C:\Users\Admin\.gradle\caches\transforms-2\files-2.1\9ab01a723155137d6df0e6042541b479\core-1.1.0\AndroidManifest.xml:24:18-86
+14        android:icon="@mipmap/ic_launcher"
+14-->C:\Users\Admin\Documents\Program\app\src\main\AndroidManifest.xml:7:9-43
+15        android:label="@string/app_name"
+15-->C:\Users\Admin\Documents\Program\app\src\main\AndroidManifest.xml:8:9-41
+16        android:roundIcon="@mipmap/ic_launcher_round"
+16-->C:\Users\Admin\Documents\Program\app\src\main\AndroidManifest.xml:9:9-54
+17        android:supportsRtl="true"
+17-->C:\Users\Admin\Documents\Program\app\src\main\AndroidManifest.xml:10:9-35
+18        android:theme="@style/AppTheme" >
+18-->C:\Users\Admin\Documents\Program\app\src\main\AndroidManifest.xml:11:9-40
+19        <activity
+19-->C:\Users\Admin\Documents\Program\app\src\main\AndroidManifest.xml:13:9-23:20
+20            android:name="pl.nanoid.atlasotoskopii.ui.Scheme.Scheme"
+20-->C:\Users\Admin\Documents\Program\app\src\main\AndroidManifest.xml:14:13-45
+21            android:configChanges="orientation"
+21-->C:\Users\Admin\Documents\Program\app\src\main\AndroidManifest.xml:16:13-48
+22            android:label="@string/title_activity_scheme"
+22-->C:\Users\Admin\Documents\Program\app\src\main\AndroidManifest.xml:15:13-58
+23            android:parentActivityName="pl.nanoid.atlasotoskopii.ui.Start.MainActivity"
+23-->C:\Users\Admin\Documents\Program\app\src\main\AndroidManifest.xml:18:13-64
+24            android:screenOrientation="portrait"
+24-->C:\Users\Admin\Documents\Program\app\src\main\AndroidManifest.xml:17:13-49
+25            android:theme="@style/AppTheme.NoActionBar" >
+25-->C:\Users\Admin\Documents\Program\app\src\main\AndroidManifest.xml:19:13-56
+26            <meta-data
+26-->C:\Users\Admin\Documents\Program\app\src\main\AndroidManifest.xml:20:13-22:82
+27                android:name="android.support.PARENT_ACTIVITY"
+27-->C:\Users\Admin\Documents\Program\app\src\main\AndroidManifest.xml:21:17-63
+28                android:value="pl.nanoid.atlasotoskopii.ui.Start.MainActivity" />
+28-->C:\Users\Admin\Documents\Program\app\src\main\AndroidManifest.xml:22:17-79
+29        </activity>
+30        <activity
+30-->C:\Users\Admin\Documents\Program\app\src\main\AndroidManifest.xml:25:9-35:20
+31            android:name="pl.nanoid.atlasotoskopii.ui.Detailed.Detailed"
+31-->C:\Users\Admin\Documents\Program\app\src\main\AndroidManifest.xml:26:13-49
+32            android:configChanges="orientation"
+32-->C:\Users\Admin\Documents\Program\app\src\main\AndroidManifest.xml:28:13-48
+33            android:label="@string/title_activity_detailed"
+33-->C:\Users\Admin\Documents\Program\app\src\main\AndroidManifest.xml:27:13-60
+34            android:parentActivityName="pl.nanoid.atlasotoskopii.ui.Start.MainActivity"
+34-->C:\Users\Admin\Documents\Program\app\src\main\AndroidManifest.xml:30:13-64
+35            android:screenOrientation="portrait"
+35-->C:\Users\Admin\Documents\Program\app\src\main\AndroidManifest.xml:29:13-49
+36            android:theme="@style/AppTheme.NoActionBar" >
+36-->C:\Users\Admin\Documents\Program\app\src\main\AndroidManifest.xml:31:13-56
+37            <meta-data
+37-->C:\Users\Admin\Documents\Program\app\src\main\AndroidManifest.xml:20:13-22:82
+38                android:name="android.support.PARENT_ACTIVITY"
+38-->C:\Users\Admin\Documents\Program\app\src\main\AndroidManifest.xml:21:17-63
+39                android:value="pl.nanoid.atlasotoskopii.ui.Start.MainActivity" />
+39-->C:\Users\Admin\Documents\Program\app\src\main\AndroidManifest.xml:22:17-79
+40        </activity>
+41        <activity
+41-->C:\Users\Admin\Documents\Program\app\src\main\AndroidManifest.xml:37:9-46:20
+42            android:name="pl.nanoid.atlasotoskopii.ui.Start.StartActivity"
+42-->C:\Users\Admin\Documents\Program\app\src\main\AndroidManifest.xml:37:19-57
+43            android:configChanges="orientation"
+43-->C:\Users\Admin\Documents\Program\app\src\main\AndroidManifest.xml:38:13-48
+44            android:screenOrientation="portrait"
+44-->C:\Users\Admin\Documents\Program\app\src\main\AndroidManifest.xml:39:13-49
+45            android:theme="@style/AppTheme.NoActionBar" >
+45-->C:\Users\Admin\Documents\Program\app\src\main\AndroidManifest.xml:40:13-56
+46            <intent-filter>
+46-->C:\Users\Admin\Documents\Program\app\src\main\AndroidManifest.xml:41:13-45:29
+47                <action android:name="android.intent.action.MAIN" />
+47-->C:\Users\Admin\Documents\Program\app\src\main\AndroidManifest.xml:42:17-69
+47-->C:\Users\Admin\Documents\Program\app\src\main\AndroidManifest.xml:42:25-66
+48
+49                <category android:name="android.intent.category.LAUNCHER" />
+49-->C:\Users\Admin\Documents\Program\app\src\main\AndroidManifest.xml:44:17-77
+49-->C:\Users\Admin\Documents\Program\app\src\main\AndroidManifest.xml:44:27-74
+50            </intent-filter>
+51        </activity>
+52        <activity
+52-->C:\Users\Admin\Documents\Program\app\src\main\AndroidManifest.xml:47:9-50:51
+53            android:name="pl.nanoid.atlasotoskopii.ui.Start.MainActivity"
+53-->C:\Users\Admin\Documents\Program\app\src\main\AndroidManifest.xml:48:13-50
+54            android:configChanges="orientation"
+54-->C:\Users\Admin\Documents\Program\app\src\main\AndroidManifest.xml:49:13-48
+55            android:screenOrientation="portrait" />
+55-->C:\Users\Admin\Documents\Program\app\src\main\AndroidManifest.xml:50:13-49
+56
+57        <meta-data
+57-->C:\Users\Admin\Documents\Program\app\src\main\AndroidManifest.xml:52:9-54:57
+58            android:name="preloaded_fonts"
+58-->C:\Users\Admin\Documents\Program\app\src\main\AndroidManifest.xml:53:13-43
+59            android:resource="@array/preloaded_fonts" />
+59-->C:\Users\Admin\Documents\Program\app\src\main\AndroidManifest.xml:54:13-54
+60
+61        <provider
+61-->[androidx.lifecycle:lifecycle-process:2.1.0] C:\Users\Admin\.gradle\caches\transforms-2\files-2.1\7bdaacb7bb0b0e94bfd7563a2ec8ac23\lifecycle-process-2.1.0\AndroidManifest.xml:23:9-27:43
+62            android:name="androidx.lifecycle.ProcessLifecycleOwnerInitializer"
+62-->[androidx.lifecycle:lifecycle-process:2.1.0] C:\Users\Admin\.gradle\caches\transforms-2\files-2.1\7bdaacb7bb0b0e94bfd7563a2ec8ac23\lifecycle-process-2.1.0\AndroidManifest.xml:24:13-79
+63            android:authorities="pl.nanoid.atlasotoskopii.lifecycle-process"
+63-->[androidx.lifecycle:lifecycle-process:2.1.0] C:\Users\Admin\.gradle\caches\transforms-2\files-2.1\7bdaacb7bb0b0e94bfd7563a2ec8ac23\lifecycle-process-2.1.0\AndroidManifest.xml:25:13-69
+64            android:exported="false"
+64-->[androidx.lifecycle:lifecycle-process:2.1.0] C:\Users\Admin\.gradle\caches\transforms-2\files-2.1\7bdaacb7bb0b0e94bfd7563a2ec8ac23\lifecycle-process-2.1.0\AndroidManifest.xml:26:13-37
+65            android:multiprocess="true" />
+65-->[androidx.lifecycle:lifecycle-process:2.1.0] C:\Users\Admin\.gradle\caches\transforms-2\files-2.1\7bdaacb7bb0b0e94bfd7563a2ec8ac23\lifecycle-process-2.1.0\AndroidManifest.xml:27:13-40
+66    </application>
+67
+68</manifest>
